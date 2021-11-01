@@ -114,6 +114,7 @@ height: 100vh;
   background-color: #EBE9FB;
   border-radius: 50%; 
   margin: auto auto 30px;
+  
 }
 .cycle img{
   width: 60%;
@@ -157,7 +158,6 @@ font-size: 30px;
 .learn:hover{
   background-color: #4E42D9;
   color: #f3f4f7;
-
 }
 .why2{
   display: grid;
@@ -169,6 +169,7 @@ font-size: 30px;
   display: grid;
   grid-template-rows: repeat(2, 1fr);
   gap: 50px;
+  margin-bottom: 20px;
   }
   .why2 p ,.why3 p, .features-head p{
   color: #BB9EB9;
@@ -184,21 +185,23 @@ font-size: 30px;
 }
 .easy, .grow{
   background-color: #FBFBFF;
-  border: 0 0 8px 0; 
-  transition: all 0.5s ease-in-out;
-  box-shadow: 0 0 2px #36368d;
+   transition: all 0.5s ease-in-out;
+  box-shadow: 0 0 1px #c1c1d3;
+  padding: 10px;
+  border-radius: 4px;
 
 }.easy:hover, .grow:hover{
   background-color: #4E42D9;
-  box-shadow: 20px #FBFBFF;
+  box-shadow:0 0 5px #FBFBFF;
   color: #fff;
 
 }
 .analysis, .data{
   background-color: #FBFBFF;
-  border: 0 0 8px 0; 
-  transition: all 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out;
   padding: 10px;
+  box-shadow: 0 0 1px #c1c1d3;
+  border-radius: 4px;
 
 }.analysis:hover, .data:hover{
   background-color: #4E42D9;
@@ -212,6 +215,12 @@ font-size: 30px;
 .features-body{
   display: grid;
   grid-template-columns: repeat(2, 1fr);
+  margin-top: 40px;
+}
+.features-article {
+display: grid;
+grid-template-rows: repeat(3, 1fr);
+margin-top: 40px;
 }
 
 
