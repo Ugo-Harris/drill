@@ -170,9 +170,10 @@ font-size: 30px;
   grid-template-rows: repeat(2, 1fr);
   gap: 50px;
   }
-  .why2 p ,.why3 p{
+  .why2 p ,.why3 p, .features-head p{
   color: #BB9EB9;
   text-align: center;
+  line-height: 25px;
 } 
 .why2 h4,.why3 h4{
   text-align: center;
@@ -184,13 +185,13 @@ font-size: 30px;
 .easy, .grow{
   background-color: #FBFBFF;
   border: 0 0 8px 0; 
-  transition: 0.5s;
-  padding: 10px;
-  box-shadow: 0 0 4px #FBFBFF;
+  transition: all 0.5s ease-in-out;
+  box-shadow: 0 0 2px #36368d;
 
 }.easy:hover, .grow:hover{
   background-color: #4E42D9;
   box-shadow: 20px #FBFBFF;
+  color: #fff;
 
 }
 .analysis, .data{
@@ -202,7 +203,17 @@ font-size: 30px;
 }.analysis:hover, .data:hover{
   background-color: #4E42D9;
   box-shadow: 0 0 4px #FBFBFF;
+  color: #fff;
 }
+.features-head h3{
+  text-align: center;
+  margin-bottom: 25px;
+}
+.features-body{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
 
 
 
